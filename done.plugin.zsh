@@ -9,7 +9,7 @@ if [ -z "$SSH_CLIENT" ]; then
 elif [ "${DONE_ALLOW_NONGRAPHICAL:-0}" -ne 0 ] && (( ${+functions[done_send_notification]} )); then
     : # Or if the user really wants us to
 else
-    # Exit early if otherwise
+    # Exit early otherwise
     return
 fi
 
