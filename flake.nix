@@ -69,7 +69,7 @@
 
           zsh-done = pkgs.stdenvNoCC.mkDerivation rec {
             pname = "zsh-done";
-            version = "0.1.0";
+            version = "0.1.1";
 
             src = ./done.plugin.zsh;
 
