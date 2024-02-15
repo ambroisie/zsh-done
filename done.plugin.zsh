@@ -120,7 +120,7 @@ __done_is_ignored_command() {
         return 1
     fi
     # shellcheck disable=2154
-    printf '%s' "$__done_last_command" | grep -q -v -P "$DONE_EXCLUDE"
+    printf '%s' "$__done_last_command" | grep -q -P "$DONE_EXCLUDE"
 }
 
 __done_notify() {
