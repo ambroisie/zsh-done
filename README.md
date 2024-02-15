@@ -21,7 +21,7 @@ DONE_MIN_CMD_DURATION=15 # Default: 5
 Uses `grep -P` (Perl syntax) to filter out commands that should never notify.
 
 ```zsh
-DONE_MIN_CMD_DURATION='^\sgit (?!push|pull|fetch)' # Default: ''
+DONE_EXCLUDE='^\sgit (?!push|pull|fetch)' # Default: ''
 ```
 
 ### Play a sound when sending notification
